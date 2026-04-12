@@ -1,0 +1,21 @@
+# skills
+
+A curated collection of skills, organized by domain.
+
+## Collections
+
+### `design`
+
+18 skills for frontend design and UI work — building interfaces, planning UX, layout, typography, animation, color, auditing, and polish. Sourced from [pbakaus/impeccable](https://github.com/pbakaus/impeccable) and [anthropics/skills](https://github.com/anthropics/skills).
+
+## Install
+
+```sh
+npx skills add usamaasfar/skills
+```
+
+To install only the design collection:
+
+```sh
+npx skills add usamaasfar/skills --skill design
+```
