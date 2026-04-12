@@ -14,6 +14,12 @@ A curated collection of skills, organized by domain.
 
 `/roles engineer` `/roles designer` `/roles architect`
 
+### `tasks`
+
+Focused single-purpose tasks to run against the current code.
+
+`/tasks review` `/tasks debug`
+
 ## Install
 
 ```sh
