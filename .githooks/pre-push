@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# .githooks/pre-push
+# Syncs design skills before every push. If skills/design/ changed, auto-commits.
+
+set -euo pipefail
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+
+echo "[pre-push] Running design skill sync..."
+"$REPO_ROOT/scripts/design.sh"
+
+# Check if skills/design/ has any uncommitted changes
+if ! git diff --quiet HEAD -- skills/design/ || \
+   [ -n "$(git ls-files --others --exclude-standard skills/design/)" ]; then
+  echo "[pre-push] skills/design/ changed — committing sync..."
+  git add skills/design/
+  git commit -m "chore: sync design skills"
+  echo "[pre-push] Committed. Push will include the sync."
+else
+  echo "[pre-push] skills/design/ already up to date."
+fi
