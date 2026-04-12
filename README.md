@@ -20,8 +20,8 @@ A curated collection of skills, organized by domain.
 npx skills add usamaasfar/skills
 ```
 
-To install only the design collection:
+To install a specific collection:
 
 ```sh
-npx skills add usamaasfar/skills --skill design
+npx skills add usamaasfar/skills --skill design|roles
 ```
