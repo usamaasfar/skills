@@ -29,5 +29,5 @@ npx skills add usamaasfar/skills
 To install a specific collection:
 
 ```sh
-npx skills add usamaasfar/skills --skill design|roles
+npx skills add usamaasfar/skills --skill design|roles|tasks
 ```
