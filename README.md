@@ -8,6 +8,12 @@ A curated collection of skills, organized by domain.
 
 18 skills for frontend design and UI work — building interfaces, planning UX, layout, typography, animation, color, auditing, and polish. Sourced from [pbakaus/impeccable](https://github.com/pbakaus/impeccable) and [anthropics/skills](https://github.com/anthropics/skills).
 
+### `roles`
+
+3 roles that shape how Claude approaches work in a session — invoke at the start to set the mode.
+
+`/roles engineer` `/roles designer` `/roles architect`
+
 ## Install
 
 ```sh
