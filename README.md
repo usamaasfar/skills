@@ -20,6 +20,18 @@ Focused single-purpose tasks to run against the current code.
 
 `/tasks review` `/tasks debug`
 
+### `behaviors`
+
+Communication style modifiers — change how Claude operates for the session.
+
+`/behaviors concise`
+
+### `context`
+
+Manages project-level context that persists across sessions.
+
+`/context knowledge`
+
 ## Install
 
 ```sh
