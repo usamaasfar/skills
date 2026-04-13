@@ -12,6 +12,7 @@ A curated collection of skills, organized by domain.
 
 5 roles that shape how Claude approaches work in a session — invoke at the start to set the mode.
 
+
 `/roles engineer` `/roles designer` `/roles architect` `/roles investigator` `/roles researcher`
 
 ### `tasks`
