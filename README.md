@@ -10,9 +10,9 @@ A curated collection of skills, organized by domain.
 
 ### `roles`
 
-3 roles that shape how Claude approaches work in a session — invoke at the start to set the mode.
+5 roles that shape how Claude approaches work in a session — invoke at the start to set the mode.
 
-`/roles engineer` `/roles designer` `/roles architect`
+`/roles engineer` `/roles designer` `/roles architect` `/roles investigator` `/roles researcher`
 
 ### `tasks`
 
@@ -35,11 +35,9 @@ Manages project-level context that persists across sessions.
 ## Install
 
 ```sh
-npx skills add usamaasfar/skills
-```
-
-To install a specific collection:
-
-```sh
-npx skills add usamaasfar/skills --skill design|roles|tasks
+npx skills add usamaasfar/skills --skill design
+npx skills add usamaasfar/skills --skill roles
+npx skills add usamaasfar/skills --skill tasks
+npx skills add usamaasfar/skills --skill behaviors
+npx skills add usamaasfar/skills --skill context
 ```
